@@ -9,7 +9,7 @@
 	margin-top: 0px;
 	position: sticky;
 	top: 0px;
-	background: whitesmoke;
+	background: var(--secondary-color);
 	line-height: 65px;
 	text-align: center;
 	z-index: 1;
