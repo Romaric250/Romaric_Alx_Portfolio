@@ -5,11 +5,11 @@
 
 .nav {
 	width: 100%;
-	height: 50px;
+	height: 70px;
 	margin-top: 0px;
 	position: sticky;
 	top: 0px;
-	background: whitesmoke;
+	background: var(--secondary-color);
 	line-height: 65px;
 	text-align: center;
 	z-index: 1;
