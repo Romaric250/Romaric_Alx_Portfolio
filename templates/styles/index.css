@@ -8,11 +8,14 @@
 	height: 100vh;
 	width: 100%;
 	background-color: var(--primary-color);
+	
 }
 
 .main__landing__wrapper{
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 	
 }
 
@@ -26,4 +29,116 @@
 width: 100%;
 min-width: 300px;
 
+
+
 }
+
+.right_side__image__wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.right_side__image__wrapper .main__image{
+	flex: 2;
+}
+.right_side__image__wrapper .see__yourself{
+	flex: 1;
+}
+
+.right_side__image__wrapper .see__yourself {
+	margin-top: 1rem;
+	
+	 
+
+  }
+
+  .left__side button {
+	display: flex;
+	height: 52px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 10px;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	border: none;
+	outline: none;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .left__side button:hover {
+	background-color: #ECECEC;
+	transform: scale(1.05);
+  }
+  
+  .left__side button:active {
+	transform: scale(0.95);
+  }
+  
+  @keyframes button-click-animation {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(0.9);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  .left__side button:active {
+	animation: button-click-animation 0.5s;
+  }
+
+  .left__side .button__wrapper{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .content-section {
+	text-align: center;
+	padding: 50px;
+	
+  }
+  
+  .heading {
+	color: var(--Other, #212121);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 130.523%; /* 41.767px */
+  }
+  
+  .description {
+	font-size: 18px;
+	font-family: var(--font-family);
+
+	
+
+	color: #212121;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 130.523%; /* 41.767px */
+  }
+
+  
+
+  .content-section b{
+	color: var(--secondary-color);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 130.523%;
+  }
+  
