@@ -5,7 +5,25 @@
 }
 
 .landing__page {
-	height: 88vh;
+	height: 100vh;
 	width: 100%;
 	background-color: var(--primary-color);
+}
+
+.main__landing__wrapper{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.main__landing__wrapper .left__side, .main__landing__wrapper .right__side{
+	flex: 2;
+	
+
+}
+
+.main__landing__wrapper .right__side .right_side__image__wrapper img{
+width: 100%;
+min-width: 300px;
+
 }
