@@ -12,7 +12,25 @@ mediaButton.onclick = function () {
     
 };
 
+
+
+
+//nav scroll
+
+window.addEventListener('scroll', function() {
+  var nav = document.querySelector('.nav');
+  var scrolled = window.scrollY > 0;
+  
+  if (scrolled) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+
+
 //slider container
+
 
 let slideIndex = 0;
 showSlides();

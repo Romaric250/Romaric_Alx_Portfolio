@@ -13,6 +13,7 @@
 
 .main__landing__wrapper{
 	display: flex;
+	margin-top: 3.7rem;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
@@ -54,7 +55,7 @@ min-width: 300px;
 
   }
 
-  .left__side button {
+  .left__side button, .see__more .see__more__button__wrapper button {
 	display: flex;
 	height: 52px;
 	padding: 10px;
@@ -73,8 +74,12 @@ min-width: 300px;
 	background-color: #ECECEC;
 	transform: scale(1.05);
   }
+  .see__more .see__more__button__wrapper button:hover {
+	background-color: #ECECEC;
+	transform: scale(1.05);
+  }
   
-  .left__side button:active {
+  .left__side button, .see__more .see__more__button__wrapper button:active {
 	transform: scale(0.95);
   }
   
@@ -114,9 +119,14 @@ font-family: Inter;
 font-size: 32px;
 font-style: normal;
 font-weight: 300;
+margin-bottom: 1rem;
 line-height: 130.523%; /* 41.767px */
   }
   
+
+  .content-section p:last-child{
+	margin-top: 1rem;
+  }
   .description {
 	font-size: 18px;
 	font-family: var(--font-family);
@@ -141,4 +151,19 @@ font-style: normal;
 font-weight: 700;
 line-height: 130.523%;
   }
+
+
+  .see__more .see__more__button__wrapper{
+display: flex;
+width: 100%;
+flex-direction: row;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  }
   
+  .see__more .see__more__button__wrapper a{
+	text-decoration: none;
+
+  }
