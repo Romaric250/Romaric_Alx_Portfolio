@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Deluxe Burger",
+      "image": "../images/big2.png",
+      "price": 1500,
+      "description": "A mouthwatering burger with a blend of premium ingredients.",
+      "stock": 10
+    },
+    {
+      "name": "Cheesy Bacon Burger",
+      "image": "../images/big2.png",
+      "price": 1800,
+      "description": "A delicious burger topped with melted cheese and crispy bacon.",
+      "stock": 8
+    },
+    {
+      "name": "Spicy Jalapeno Burger",
+      "image": "../images/burger2.png",
+      "price": 1650,
+      "description": "A fiery burger with jalapeno peppers and spicy sauce.",
+      "stock": 5
+    },
+    {
+      "name": "Mushroom Swiss Burger",
+      "image": "../images/burger1.png",
+      "price": 1600,
+      "description": "A savory burger topped with sautéed mushrooms and melted Swiss cheese.",
+      "stock": 12
+    }
+  ]
