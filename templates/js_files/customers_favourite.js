@@ -69,7 +69,7 @@ function generateBurgerItem(burger, containerId) {
   
   function handleAddToCart(burger) {
     // Redirect to the login page or display a login modal
-    window.location.href = 'login.html'; // Replace with your login page URL
+    window.location.href = 'signup.html'; // Replace with your login page URL
   }
   
   // Fetch customer favorites data
