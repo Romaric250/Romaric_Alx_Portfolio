@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Classic Burger",
+        "image": "burger1.jpg",
+        "description": "A delicious classic burger with lettuce, tomato, onion, and pickles."
+    },
+    {
+        "name": "Cheeseburger",
+        "image": "burger2.jpg",
+        "description": "A mouthwatering cheeseburger with melted cheddar cheese and special sauce."
+    },
+    {
+        "name": "Bacon Burger",
+        "image": "burger3.jpg",
+        "description": "A flavorful bacon burger topped with crispy bacon strips and BBQ sauce."
+    },
+    {
+        "name": "Veggie Burger",
+        "image": "burger4.jpg",
+        "description": "A tasty veggie burger made with fresh vegetables and served with avocado mayo."
+    }
+]

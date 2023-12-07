@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Double Cheeseburger",
+      "image": "../images/big2.png",
+      "price": 1900,
+      "description": "A hearty burger with double the cheese for cheese lovers.",
+      "stock": 6
+    },
+    {
+      "name": "Bacon Avocado Burger",
+      "image": "../images/big burger.png",
+      "price": 2000,
+      "description": "An indulgent burger topped with crispy bacon and creamy avocado.",
+      "stock": 4
+    },
+    {
+      "name": "Hawaiian Burger",
+      "image": "../images/burger1.png",
+      "price": 1750,
+      "description": "A tropical burger with juicy pineapple and tangy teriyaki sauce.",
+      "stock": 10
+    },
+    
+    {
+      "name": "Classic Cheeseburger",
+      "image": "../images/big2.png",
+      "price": 1500,
+      "description": "A timeless burger with a perfectly melted cheese slice.",
+      "stock": 11
+    }
+   
+  ]
