@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="./styles/store.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search-bar">
+        <input
+          type="text"
+          id="burgerSearch"
+          placeholder="Search for a burger"
+        />
+      </div>
+
+      <div class="burger-container" id="burgerContainer">
+        <!-- Burger cards will be dynamically populated here -->
+      </div>
+    </div>
+
+    <!-- Order Popup Modal -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalBurgerName"></h2>
+        <img id="modalBurgerImage" src="" alt="Burger" />
+        <p id="modalBurgerDescription"></p>
+        <!-- Additional fields and form elements for ordering -->
+        <button class="place-order-btn">Place Order</button>
+      </div>
+    </div>
+
+    <!-- Invoice Modal -->
+    <div id="invoiceModal" class="modal">
+      <div class="modal-content">
+        <h2>Invoice</h2>
+        <!-- Invoice details will be dynamically generated here -->
+      </div>
+    </div>
+
+    <script src="./js_files/store.js"></script>
+  </body>
+</html>
