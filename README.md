@@ -1,8 +1,8 @@
 
 # Harmburger Delivery Application
-
+![Harmburger Pardise](../templates/images/Romaric.jpg)
 ## Introduction
-Welcome to the Harmburger Delivery Application! This application is designed to provide a convenient and seamless experience for users to order their favorite burgers for delivery. With a wide selection of delicious burgers and a user-friendly interface, we aim to satisfy your hunger and deliver a delightful food experience to your doorstep.
+Welcome to the Hamburger Delivery Application! This application is designed to provide a convenient and seamless experience for users to order their favorite burgers for delivery. With a wide selection of delicious burgers and a user-friendly interface, we aim to satisfy your hunger and deliver a delightful food experience to your doorstep.
 
 ## Table of Contents
 - [Features](#features)
